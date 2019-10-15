@@ -1,0 +1,271 @@
+body {
+    background-color: rgb(180,221,229);
+    
+}
+
+
+body > header {
+    display: flex;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    height: 8em;
+    
+}
+
+nav > ul > li:nth-of-type(1) > a > img {
+    width: 10em;
+    margin-top: 1em;
+
+}
+
+nav > ul > li:nth-of-type(2) > a > img {
+    width: 2em;
+    margin-left: 1em;
+    margin-top: 1.5em;
+
+}
+
+nav {
+    width: 100%;
+}
+
+nav > ul > li:nth-of-type(3) > a > img {
+    width: 2.1em;
+    margin-left: 1em;
+    margin-top: 1.5em;
+
+}
+
+nav > ul > li:nth-of-type(4) > a > img {
+    width: 2.2em;
+    margin-left: 1em;
+    margin-top: 1.5em;
+    margin-right: 2em;
+
+}
+
+header > nav > ul {
+    display: flex;
+}
+
+
+header > nav {
+    background-color: rgb(6, 24, 61);
+    height: 7em;
+}
+
+nav > ul > li:first-of-type {
+    margin-right: auto;
+}
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+section > h1 {
+    padding: 1em;
+    margin: 1em;
+    margin-top: 4.65em;
+    width: 100%;
+    margin-left: -1em;
+    margin-bottom: 4em;
+    font-family: Arial;
+    text-align: center
+
+}
+
+
+
+
+header > nav > ul > li {
+    list-style: none;
+}
+
+
+
+input[type=text] {
+    width: 10em;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    border-color: rgb(108, 194, 209);
+    margin-top: 2em;
+    margin-bottom: 1em;
+    border-style: solid;
+    border-radius: 0.3em;
+    min-height: 2em;
+    color: lightgray;
+    background-color: white;
+}
+
+/* When the input field gets focus, change its width to 100% */
+
+input[type=text]:focus {
+    width: 50%;
+    border-color: rgb(108, 194, 209);
+    border-style: solid;
+    border-radius: 0.3em;
+    min-height: 2em;
+    color: lightgray;
+}
+
+ body > section:nth-of-type(1) > a{
+    
+    border: 1em;
+    background-color: rgb(255,220,17);
+    border-radius: 0.3em;
+    color:black;
+    padding: 1em;
+    text-decoration: none;
+    font-family: Helvetica Neue;
+}
+
+article > img {
+    max-height:16em;
+    width: 100%;
+    border-radius: 1em 1em 0em 0em;
+    margin-top: -20em;
+    object-fit: cover;
+    
+    
+}
+
+article > footer {
+    text-decoration: none;
+    color: darkgrey;
+    float: left;
+    margin-top: 9em;
+    margin-left: -3.5em;
+    font-family: Arial;
+    font-size: 1em; 
+}
+
+
+
+body > section > h1{
+    color:rgb(6, 24, 61);
+    font-size: 1.7em;
+    margin-bottom: 0em;
+    font-family: Arial;
+    font-weight:500;
+}
+
+
+section > form > label {
+    
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 1em; 
+    display: block;
+
+        max-width: 80%;
+    margin-left: 8%;
+    padding-top: 2em;
+    
+    
+}
+
+
+ input[type=submit] {
+    font-family: Helvetica Neue;
+    font-weight: 300;
+    color:rgb (102,102,102);
+    font-size: 1.2em;
+    border: 1em;
+    background-color: rgb(255,220,17);
+    border-radius: 0.3em;
+    padding: 1em 2em 1em 2em;
+    text-decoration: none;
+    font-family: Helvetica Neue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    border-bottom-style: solid;
+    border-bottom-color: #BC9E0A;
+    border-bottom-width: 0.3em;
+    text-align: center;
+     
+    
+     
+}
+
+ input[type=email]{
+    border-color: rgb(108, 194, 209);
+    border-style: solid;
+    border-radius: 0.3em;
+    min-height: 2em;
+    color: lightgray;
+    text-align: center;
+    max-width: 80%;
+    margin-left: 8%;
+    
+
+    
+}
+
+input[type=password]{
+    border-color: rgb(108, 194, 209);
+    border-style: solid;
+    border-radius: 0.3em;
+    min-height: 2em;
+    color: lightgray;
+    text-align: center;
+    max-width: 50%;
+        max-width: 80%;
+    margin-left: 8%;
+}
+ 
+
+form {
+    background-color: white;
+    width: 25em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+form > a{
+    text-align: center;
+    padding: 1em;
+    
+}
+form div{
+    
+    width: 100%;
+    background-color: rgb(228,228,228);
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+form label {
+    display: inline;
+        font-family: Arial;
+    font-weight: 500;
+    font-size: 0.8em;
+    color: #666666;
+    margin-right: 2em;
+    
+}
+form a {
+        font-family: Arial;
+        font-size: 0.8em;
+    font-weight: 500;
+    color: #6BC0CF;
+    vertical-align: middle;
+    
+}
+

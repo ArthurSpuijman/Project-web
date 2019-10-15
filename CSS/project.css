@@ -1,0 +1,435 @@
+body {
+
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+}
+
+
+
+body > header {
+    display: flex;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    height: 8em;
+}
+
+nav > ul > li:nth-of-type(1) > a > img {
+    width: 10em;
+    margin-top: 1em;
+
+}
+
+nav > ul > li:nth-of-type(2) > a > img {
+    width: 2em;
+    margin-left: 1em;
+    margin-top: 1.5em;
+
+}
+
+nav {
+    width: 100%;
+}
+
+nav > ul > li:nth-of-type(3) > a > img {
+    width: 2.1em;
+    margin-left: 1em;
+    margin-top: 1.5em;
+
+}
+
+nav > ul > li:nth-of-type(4) > a > img {
+    width: 2.2em;
+    margin-left: 1em;
+    margin-top: 1.5em;
+    margin-right: 2em;
+
+}
+
+header > nav > ul {
+    display: flex;
+}
+
+
+header > nav {
+    background-color: rgb(6, 24, 61);
+    height: 7em;
+}
+
+nav > ul > li:first-of-type {
+    margin-right: auto;
+}
+
+input[type=text] {
+    border-radius: 1em;
+    box-shadow: 0em 0em 0em;
+    width: 25em;
+}
+
+article > p {
+    background-color: white;
+    color: black;
+    position: relative;
+    background-color: #FFFFFF;
+    margin-top: 2em;
+    float: left;
+    margin-left: 1.5em;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    background-color: white;
+    color: black;
+    margin: 0;
+    margin-bottom: -1.5em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    float: left;
+    margin-left: 1.5em;
+    font-family: Arial;
+    font-size: 1.3em;
+    font-weight: 500;
+
+}
+
+section > h1 {
+    background-color: rgb(6, 24, 61, 0.7);
+    color: white;
+    padding: 1em;
+    margin: 1em;
+    margin-top: 4.65em;
+    width: 100%;
+    margin-left: -1em;
+    margin-bottom: 4em;
+    font-family: Arial;
+
+}
+
+
+.index > section:nth-of-type(1) {
+    background-image: url(../images/amsterdam.jpg);
+    width: 100%;
+    min-height: 20em;
+    background-size: cover;
+    margin-bottom: -1.6em;
+    margin-top: 0;
+
+
+}
+
+header > nav > ul > li {
+    list-style: none;
+}
+
+section > ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    border-color: #FFFFFF;
+    list-style: none;
+    background-color: rgb(108, 194, 209);
+    font-family: Arial;
+    min-width: 20em;
+    max-width: 80em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+section > ul > li > a {
+
+    list-style: none;
+    text-decoration: none;
+    padding: 1em 0 0 1em 0;
+    color: white;
+}
+
+
+input[type=text] {
+    width: 10em;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    border-color: rgb(108, 194, 209);
+    margin-top: 2em;
+    margin-bottom: 1em;
+    border-style: solid;
+    border-radius: 0.3em;
+    min-height: 2em;
+    color: lightgray;
+    background-color: white;
+}
+
+/* When the input field gets focus, change its width to 100% */
+
+input[type=text]:focus {
+    width: 50%;
+    border-color: rgb(108, 194, 209);
+    border-style: solid;
+    border-radius: 0.3em;
+    min-height: 2em;
+    color: lightgray;
+}
+
+body > section:nth-of-type(1) > a {
+
+    border: 1em;
+    background-color: rgb(255, 220, 17);
+    border-radius: 0.3em;
+    color: black;
+    padding: 1em;
+    text-decoration: none;
+    font-family: Helvetica Neue;
+}
+
+article > img {
+    max-height: 16em;
+    width: 100%;
+    border-radius: 1em 1em 0em 0em;
+    margin-top: -20em;
+    object-fit: cover;
+
+
+}
+
+article > footer {
+    text-decoration: none;
+    color: darkgrey;
+    float: left;
+    margin-top: 9em;
+    margin-left: -3.5em;
+    font-family: Arial;
+    font-size: 1em;
+}
+
+main > h2 {
+    font-family: Arial;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+
+.inloggen > section > h1 {
+    color: rgb(6, 24, 61);
+    background-color: white;
+    font-size: 1.7em;
+    margin-bottom: 0em;
+    font-family: Arial;
+    font-weight: 500;
+}
+
+
+/* main sectie */
+main > section {
+    width: 100%;
+    margin-right: 0;
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.2em;
+}
+
+article {
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0em;
+    margin-bottom: 2em;
+    border-radius: 1em;
+    box-shadow: 0em 0em 0.5em lightgrey;
+    background-size: cover;
+    padding-top: 15em;
+    height: 13em;
+}
+
+a:nth-of-type(1) article{
+    background-image: url(../images/alzheimer.jpeg);
+    background-size: 100% 240px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+a:nth-of-type(2) article{
+    background-image: url(../
+    images/interview.jpeg);
+    background-size: 100% 240px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+a:nth-of-type(3) article{
+    background-image: url(../images/Lepra_YorickdeWit.jpg);
+    background-size: 100% 240px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+a:nth-of-type(4) article{
+    background-image: url(../images/Nichterig_Desktop_Luuk_Arts.png);
+    background-size: 100% 240px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+a:nth-of-type(5) article{
+    background-image: url(../images/Onomatopee%20jasper%20koenen.jpg);
+    background-size: 100% 240px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+a:nth-of-type(6) article{
+    background-image: url(../images/rcsuka-doof-verhaal-v1.jpg);
+    background-size: 100% 240px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+a:nth-of-type(7) article{
+    background-image: url(../images/rosakoopman-ericlucassen.jpg);
+    background-size: 100% 240px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+a:nth-of-type(8) article{
+    background-image: url(../images/STIJLOEFENINGEN_22.jpg);
+    background-size: 100% 240px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+a:nth-of-type(9) article{
+    background-image: url(../images/Verhaal_Marilyn_Doornoink.jpg);
+    background-size: 100% 240px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+
+
+
+section > form > label {
+
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 1em;
+    display: block;
+
+}
+
+section > form > h2 {
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 0.8em;
+    margin-top: 4em;
+    color: darkgray;
+}
+
+input[type=submit] {
+    font-family: Helvetica Neue;
+    font-weight: 300;
+    color: rgb (102, 102, 102);
+    font-size: 1.2em;
+    border: 1em;
+    background-color: rgb(255, 220, 17);
+    border-radius: 0.3em;
+    padding: 1em 2em 1em 2em;
+    text-decoration: none;
+    font-family: Helvetica Neue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    border-bottom-style: solid;
+    border-bottom-color: darkgray;
+    border-bottom-width: 0.5em;
+
+}
+
+input[type=email] {
+    width: 50%;
+    border-color: rgb(108, 194, 209);
+    border-style: solid;
+    border-radius: 0.3em;
+    min-height: 2em;
+    color: lightgray;
+
+
+}
+
+input[type=password] {
+    width: 50%;
+    border-color: rgb(108, 194, 209);
+    border-style: solid;
+    border-radius: 0.3em;
+    min-height: 2em;
+    color: lightgray;
+}
+
+.inloggen {
+    background-color: rgb ();
+}
+
+main > img {
+
+    width: 100%;
+
+}
+
+footer {
+
+    display: flex;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    top: 0;
+    left: 0;
+    height: 0em;
+    list-style: none;
+
+
+}
+
+body > footer > ul > li {
+    list-style: none;
+    float: left;
+    margin-top: 32em;
+
+
+}
+
+body > footer > ul > {
+    background-color:
+}
+
+form {}
+
+
+@media screen and (max-width: 800px) {
+    main > section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0.2em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main > section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0.2em;
+    }
+}
+
